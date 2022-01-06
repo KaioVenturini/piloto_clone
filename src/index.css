@@ -1,0 +1,55 @@
+/*////////////   LOGIN    \\\\\\\\\\\\\\\*/
+
+body {
+    background-color:#686868;text-align:center}
+.login{
+        position:absolute;top:0;left:0;width:100%;height:100%}
+.content{
+    width:100%;height:100%}
+.box_login{
+    position:relative;top:50%;transform:translateY(-50%)}
+.box_login .content{
+background-color:#e3e3e3;height: 530px;width:350px;margin:0 auto;border-radius:5px;text-align:center;padding:30px;overflow:hidden
+}
+.box_login .content .logoSistema{
+    margin:10px;width:120px;height:100px}
+.box_login .content .logoCompleta{
+    margin:55px;width:140px;height:53px}
+.box_login .content h1{
+    text-align:center;font-weight:700;font-size:22px;
+    margin:15px 0;color:#636768}
+.box_login .content h2{
+    text-align:center;font-weight:500;font-size:18px;margin:0 0 20px 0}
+.box_login .content .cont_form{
+    margin-bottom:15px;padding:0px;height:40px;overflow:hidden;text-align:center}
+.box_login .content .cont_form i{
+    height: 18px;width: 8%;outline:none;color:#fff;padding:10px;font-size:2rem;float:left;position:relative;
+top:50%;transform:translateY(-50%);background-color:#55c9ed}
+.box_login .content .cont_form input{
+    width:82%;border:none; height:40px;padding-left:12px;outline:none}
+.box_login .content .btn_login{
+    border:0px;padding:10px;width:150px;background-color:#55c9ed;
+color:#fff;margin-left:10px;font-size:15px}
+.box_login .content .btn_login:hover{
+    opacity:0.9; background-color: rgb(128, 208, 240); color: #fff;}
+.box_login .content .recover{
+margin:20px}
+.box_login .content a{color:#686868;font-size:15px;text-decoration:none;margin-top:20px;cursor:pointer!important;}
+.box_login .content a:hover{
+    color:#4b4b4b}
+.box_login .content .footer{
+    color:#fff;padding:15px 0}
+.box_login .content p{
+    font-size:14px;margin:0px 0 0 0;color:#000}#password{float:left}#ver{cursor:pointer;transition:all ease-in .3s}
+#ver:focus, #ver:hover{
+    background-color:#3da4c6}input{font-size:16px}
+@media(max-width: 375px){
+    body{background-color:#e3e3e3}
+.box_login .content{
+    width:300px;background:none;text-align:center;padding:10px}
+.box_login .content .cont_form input{
+    width:230px}}
+@media (max-width:1038px){
+    .senha{width:66%!important}}
+
+/*////////////   GOVERNO DIGITAL    \\\\\\\\\\\\\\\*/
